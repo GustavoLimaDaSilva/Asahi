@@ -1,4 +1,4 @@
-# **Asahi**
+<h1 align="center">Asahi</h1>
 
 A glassmorphic music web app built around the Spotify API that features track, album and artist search, as well as full-track streaming for premium users. It uses the Deezer API for song previews. 
 To protect user credentials, the OAuth 2.0 protocol is handled on the server-side with Node.js and Express.
@@ -56,7 +56,7 @@ Future development will focus on refactoring Spotify-related features to consume
 
 ### Additional Dependencies
 
-- Lodash
+- Lodash (debounce)
 
 - React Icons
 
