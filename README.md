@@ -1,5 +1,9 @@
 <h1 align="center">Asahi</h1>
 
+<div align="center">
+  <img src="./screenshots/demo.png" alt="Demonstração do Aplicativo" width="600">
+</div>
+
 A glassmorphic music web app built around the Spotify API that features track, album and artist search, as well as full-track streaming for premium users. It uses the Deezer API for song previews. 
 To protect user credentials, the OAuth 2.0 protocol is handled on the server-side with Node.js and Express.
 
