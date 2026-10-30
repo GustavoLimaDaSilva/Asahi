@@ -3,11 +3,13 @@ import { useState, useEffect } from 'react';
 
 export default function useActivate(ref) {
 
-
+    
     const [isActive, setIsActive] = useState(false)
 
    
     useEffect(() => {
+        
+        if (!ref.current) return
 
         if (isActive) document.addEventListener('click', isDifferentEl)
 

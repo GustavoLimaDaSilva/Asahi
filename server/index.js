@@ -3,7 +3,7 @@ const fs = require('fs')
 const app = require('express')();
 const cors = require('cors')
 const cookieParser = require('cookie-parser')
-const redirect_uri = process.env.REDIRECT_URI
+const redirect_uri = process.env.REDIRECT_URI || 'http://127.0.0.1:8000/'
 
 
 app.use(cors({
