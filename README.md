@@ -1,5 +1,4 @@
 <h1 align="center">Asahi</h1>
-
 <div align="center">
   <img src="./client/public/demo.png" alt="Demonstração do Aplicativo" width="600">
 </div>
